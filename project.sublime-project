@@ -1,0 +1,13 @@
+{
+	"folders":
+	[
+		{
+			"name": "Python WeWorkRemotely Bot",
+			"follow_symlinks": true,
+			"path": ".",
+			"folder_exclude_patterns": [
+				"env"
+			]
+		}
+	]
+}
