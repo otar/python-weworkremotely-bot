@@ -1,0 +1,6 @@
+
+WeWordRemotely.Com Bot.
+
+Script scraps search results from weworkremotely.com and inserts data in the MongoDB collection.
+
+Ideally you should run this scrapper with crontab. Or better with supervisord.
