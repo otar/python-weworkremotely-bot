@@ -44,7 +44,7 @@ def fetch(keyword):
 
 	for job in jobs:
 		job_id = job['href'].strip('/').split('/')[1].strip()
-		if job_id == '':
+		if not job_id:
 			continue
 		job_details = job.find_all('span')
 		# We should have exactly 3 "span" tags
